@@ -1,0 +1,32 @@
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1F2937;
+}
+
+/* Application layout */
+.app {
+  position: relative;
+  min-height: 100vh;
+}
+
+
+
+/* Horizontal line */
+hr {
+  margin: 0;
+  border: none;
+  border-top: 1px solid #D1D5DB;
+}
+
+/* Background image section */
+.page-background {
+  width: 100%;
+  min-height: 344.25px;
+  background-image: url("/src/assets/background.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

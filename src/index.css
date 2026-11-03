@@ -1,0 +1,27 @@
+
+/* Global CSS */
+:root {
+  font-family: Arial, sans-serif;
+  color: #1F2937;
+  background-color: #F3F6FB;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default spacing */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Main React container */
+#root {
+  min-height: 100vh;
+}

@@ -1,0 +1,59 @@
+
+.register-container {
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    padding: 30px 15px;
+}
+
+.register-box {
+  width: 350px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+}
+
+.register-box h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #D1D5DB;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563EB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.register-box button:hover {
+  background-color: #1E3A8A;
+
+}
+.Back-button {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ecedef;
+  text-decoration: none;
+  align-items:center;
+  
+}
